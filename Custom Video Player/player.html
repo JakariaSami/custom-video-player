@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,10 +7,9 @@
     <title>Custom Video Player</title>
 </head>
 <body>
-    
 
 <div class="player">
-    <video src="E:\Videos\Movies\Big Buck Bunny 720p - Official Blender Foundation Short Film.mp4" width='500px' height='283px' class='video'></video>
+    <video src="VIDEO_LOCATION_HERE" width='500px' height='283px' class='video'></video>
 
     <div class="controls">
         <div class="progress">
@@ -19,7 +19,6 @@
             <button class='playBtn'>▶</button>
 
             <input type="range" min='0' max='1' step='0.05' value='0.5' class='sound slider' name='volume' title='Volume'>
-
             <input type="range" min='0.5' max='2' value='1' step='0.1' class='speed slider' name='playbackRate' title='Speed'>
 
             <kbd></kbd><button data-skip='-10'><< 10s</button>
@@ -27,8 +26,6 @@
         </div>
     </div>
 </div>
-
-
 
     <script src='player.js'></script>
 </body>
